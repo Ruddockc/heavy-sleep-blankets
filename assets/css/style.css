@@ -8,6 +8,15 @@ body {
     background-color: #e4e2e0;
 }
 
+.page-title { 
+    font-weight: bold;      
+}
+
+.page-title-subtext{
+    font-size: 20px;
+    font-weight: bold;      
+}
+
 /* ========== Header & Navigation Styles ========== */
 .logo {
     font-family: "Playfair Display", sans-serif;
@@ -18,7 +27,12 @@ body {
 }
 
 .logo:hover {
-    color: #FFFF00;     
+    color: #FFFF00;
+    border-bottom: #FFFF00 1px solid;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;     
 }
 
 .navbar {    
@@ -48,10 +62,10 @@ body {
 .navbar .nav-link:hover {
     color: #FFFF00;        
     border-bottom: #FFFF00 1px solid;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
 }
 
 /* ==== Idea taken from W3School ==== */
@@ -62,6 +76,15 @@ body {
 .custom-toggler.navbar-toggler {
     border-color: rgb(255,255,0);
   }
+
+/* ========== Section Styles ========== */
+.section-plain {
+    background-color: #ffffff;
+}
+
+.inner-section-plain {
+    background-color: #e4e2e0;
+}
 
 /* ========== Footer Styles ========== */
 
