@@ -1,0 +1,64 @@
+/* ========== Google Fonts ========== */
+@import url("https://fonts.googleapis.com/css?family=Playfair Display&:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* ========== General Styles ========== */
+body {
+    font-family: "Playfair Display", sans-serif;
+    color: #212121;
+    background-color: #e4e2e0;
+}
+
+/* ========== Header & Navigation Styles ========== */
+.logo {
+    font-family: "Playfair Display", sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 0 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000;
+    font-size: x-large;
+    margin: 0;
+}
+
+.logo:hover {
+    color: #FFFF00;     
+}
+
+.navbar {    
+    background-color: #000000;    
+}
+
+.nav-link {
+    padding: 0.5rem 5rem;
+    margin: 0.3rem;
+    color: #ffffff;    
+}
+
+@media screen and (max-width: 991px) {
+    .nav-link {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        color: #e4e2e0;
+    }
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFFF00;
+    border-bottom: #FFFF00 1px solid;    
+}
+
+/* ===== Idea taken from Code Institute Project (UCD-Resume) ===== */
+.navbar .nav-link:hover {
+    color: #FFFF00;        
+    border-bottom: #FFFF00 1px solid;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* ==== Idea taken from W3School ==== */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,0);
+  }
