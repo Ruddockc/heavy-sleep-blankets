@@ -62,3 +62,41 @@ body {
 .custom-toggler.navbar-toggler {
     border-color: rgb(255,255,0);
   }
+
+/* ========== Footer Styles ========== */
+
+.social-links li a i {
+    color: #212121;
+    font-size: 30px;
+}
+
+/* ===== Idea taken from Code Institute Project (Resume) ===== */
+.social-links li a i:hover {
+    color: #FFFF00;
+}
+
+.contacts p a:hover {
+    color: #212121;
+    border-bottom: #212121 1px solid;
+}
+
+footer hr {
+    margin: 0px;
+}
+
+.copyright {
+    padding-top: 16px;
+    padding-bottom: 28px;
+}
+
+@media screen and (max-width: 575px) {
+    #footer-details {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .social-links {
+        text-align: end;
+    }
+}
