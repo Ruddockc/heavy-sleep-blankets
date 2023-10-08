@@ -132,6 +132,19 @@ body {
     color: #ffff00;
 }
 
+/* ======= Back to Top Styles ======== */
+
+.btn.btn-1 {
+    background-color: #212121;    
+    color: #ffffff;
+}
+
+.btn.btn-1:hover {
+    background-color: #212121;
+    border: 1px solid #ffff00;
+    color: #ffff00;
+}
+
 /* ========== Footer Styles ========== */
 
 .social-links li a i {
