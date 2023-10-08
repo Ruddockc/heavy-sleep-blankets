@@ -86,6 +86,34 @@ body {
     background-color: #e4e2e0;
 }
 
+.carousel-indicators .active {
+    background-color: #FFFF00 !important;
+}
+
+.carousel-control-prev{    
+    border-bottom: 0;
+    font-size: 40px;
+    color: #000000;
+}
+
+.carousel-control-prev:hover{    
+    border-bottom: 0;
+    font-size: 40px;
+    color: #FFFF00;
+}
+
+.carousel-control-next {
+    border-bottom: 0;
+    font-size: 40px;
+    color: #000000;
+}
+
+.carousel-control-next:hover{
+    border-bottom: 0;
+    font-size: 40px;
+    color: #FFFF00;
+}
+
 /* ========== Footer Styles ========== */
 
 .social-links li a i {
