@@ -244,7 +244,7 @@
 
 # Testing 
 
-- For all testing documentation, please [click here](https://) for more information.
+- For all testing documentation, please [click here](https://github.com/Ruddockc/heavy-sleep-blankets/blob/main/TESTING.md) for more information.
 
 ## Forking the GitHub Repository
 
