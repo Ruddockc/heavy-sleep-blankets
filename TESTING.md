@@ -86,19 +86,19 @@ No issues were identified with appearance, responsiveness or functionality durin
 
   - The homepage clearly introduces and indicated that the product is due to launch, with details of the product also.  
 
-<h2 align="left"><img src="assets/testing-images/header-user-story.jpg"></h2>
+<h2 align="left"><img src="assets/testing-images/header-user-story.JPG"></h2>
 
 * As a user, I want to have the option to join a mailing list to be alerted when the weighted blankets are available for purchase.  
   
   - The customer is able to submit their interest via the name page.
 
-<h2 align="left"><img src="assets/testing-images/submit-interest-user-story.jpg"></h2>
+<h2 align="left"><img src="assets/testing-images/submit-interest-user-story.JPG"></h2>
 
 * As a user, I want to find information about the benefits of weighted blankets and why I should consider buying one, so I can make an informed decision.   
   
   - Each page gives details of the benefits of the weighted blanket.
 
-<h2 align="left"><img src="assets/testing-images/homepage-details-userstory.jpg"></h2>
+<h2 align="left"><img src="assets/testing-images/homepage-details-userstory.JPG"></h2>
 
 ## Returning Customers  
 
